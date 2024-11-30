@@ -1,0 +1,11 @@
+.imag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
