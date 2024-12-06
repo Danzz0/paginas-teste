@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: 
+      linear-gradient(to top, #000, transparent),
+      url('../IMAGENS/imagemHome.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #ce1a1c;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 25px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #b71c1c;
+  }
