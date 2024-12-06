@@ -1,3 +1,10 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+
 .imag{
     display: flex;
     justify-content: center;
@@ -8,4 +15,67 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.imgHome{
+    position: relative;
+    background-image: url('../IMAGENS/imagemHome.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.botao{
+    height: 8em;
+    width: 80%;
+    background-color: #7a1513;
+    border-radius: 25px;
+    opacity: 0.8;
+    box-shadow: 4px 4px 10px 1px;
+    border: none;
+}
+
+.botao p{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.voltar{
+    width: 80%;
+    background-color: #ce1a1c;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px 1px;
+    border: none;
+}
+
+.voltar p{
+    color: white;
+    font-size: larger;
+}
+
+
+.midBotao{
+    width: 80%;
+    display: flex;
+    gap: 18px;
+}
+
+
+.flex{
+    display: flex;
+
 }
