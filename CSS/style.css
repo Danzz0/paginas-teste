@@ -2,6 +2,7 @@
 html, body{
     height: 100%;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -38,6 +39,49 @@ html, body{
     flex-wrap: wrap;
 }
 
+
+.titulo-mapa{
+    display: flex;
+    width: 85%;
+    color: white;
+    font-size: larger;
+}
+
+.mapa-container{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+
+.mapa{
+    border-radius: 10px;
+    width:70%;
+    height: auto;
+}
+
+.mapa-voltar{
+    margin-top: 10px;
+    width: 60%;
+    background-color: #ce1a1dc3;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px 1px;
+    border: none;
+    text-align: center;
+    align-content: center;
+}
+
+
+.mapa-voltar p{
+    color: white;
+    font-size: larger;
+}
+
+
 .botao{
     height: 8em;
     width: 80%;
@@ -46,6 +90,8 @@ html, body{
     opacity: 0.8;
     box-shadow: 4px 4px 10px 1px;
     border: none;
+    text-align: center;
+    align-content: center;
 }
 
 .botao p{
@@ -54,12 +100,19 @@ html, body{
     font-weight: bold;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .voltar{
     width: 80%;
     background-color: #ce1a1c;
     border-radius: 25px;
     box-shadow: 4px 4px 10px 1px;
     border: none;
+    text-align: center;
+    align-content: center;
 }
 
 .voltar p{
