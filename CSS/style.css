@@ -93,7 +93,7 @@ p{
     width: 80%;
     background-color: rgba(184, 74, 72, 0.316);
     border-radius: 25px;
-    box-shadow: 4px 4px 10px 1px;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.269);
     border: none;
     text-align: center;
     align-content: center;
@@ -114,7 +114,7 @@ a{
     width: 80%;
     background-color: #ce1a1c;
     border-radius: 25px;
-    box-shadow: 4px 4px 10px 1px;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.269);
     border: none;
     text-align: center;
     align-content: center;
