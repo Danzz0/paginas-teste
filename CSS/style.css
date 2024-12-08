@@ -22,7 +22,7 @@ html, body{
 
 .imgHome{
     position: relative;
-    background-image: url('../IMAGENS/imagemHome.png');
+    background-image: url('../IMAGENS/imagemFundo.png');
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -85,7 +85,7 @@ html, body{
 .botao{
     height: 8em;
     width: 80%;
-    background-color: #7a1513;
+    background-color: #560605;
     border-radius: 25px;
     opacity: 0.8;
     box-shadow: 4px 4px 10px 1px;
