@@ -72,7 +72,8 @@ p{
 .mapa{
     border-radius: 10px;
     width:70%;
-    height: auto;
+    height: 60%;
+    width: 88%;
 }
 
 .mapa-voltar{
