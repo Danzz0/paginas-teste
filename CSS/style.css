@@ -59,6 +59,7 @@ p{
 }
 
 .mapa-container{
+    position: relative;
     height: 95%;
     width: 100%;
     display: flex;
@@ -69,12 +70,70 @@ p{
 }
 
 
+
 .mapa{
+    display: block;
     border-radius: 10px;
     width:70%;
     height: 60%;
     width: 88%;
 }
+
+.linkGroup{
+    width: 90%;
+    height: 60%;
+    position: absolute;
+}
+
+.linkElement{
+    display: block;
+    opacity: 0;
+}
+
+
+.linkElement div{
+    width: 10px;
+    background-color: #ce1a1c;
+}
+
+.link1{
+    margin-top: 12%;
+    margin-left: 12%;
+    margin-right: 80%;
+}
+.link2{
+    float: right;
+    margin-right: 48%;
+}
+.link3{
+    float: right;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 14%;
+
+}
+.link4{
+    float: right;
+    margin-top: 25%;
+    margin-right: 9%;
+}
+.link5{
+    float: right;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 12%;
+}
+.link6{
+    margin-top: 60%;
+    margin-left: 43%;
+    margin-right: 43%;
+}
+.link7{
+    margin-top: 18%;
+    margin-left: 32%;
+    margin-right: 60%;
+}
+
 
 .mapa-voltar{
     margin-top: 10px;
