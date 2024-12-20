@@ -1,20 +1,32 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const path = window.location.pathname;
-    console.log(path)
-  
-    // Verifica se a página é a desejada
-    if (path == '/HTML/ciclo.html') {
-      // Modifica o atributo de uma classe específica
-      const elements = document.getElementsByClassName("imgHome");
-      console.log(elements)
 
-      for(let i = 0; i < elements.length; i++){
+  /* esse IntersectionObserver é um objeto de uma api do navegdor
+     que me permite saber se um elemento html está aparecendo na tela do usuário */
 
-        elements[i].setAttribute('href', 'index.html');
-        elements[i].style.height = 'none';
-      } 
-    //   elements.forEach(element => {
-    //      // Substitua 'meuAtributo' e 'novoValor' pelos valores desejados
-    //   });
-    }
+  const elementoObservado = new IntersectionObserver(objetosCarregados => { 
+
+    objetosCarregados.forEach(paragrafo => {
+
+      if ( paragrafo.isIntersecting ) {
+
+        paragrafo.target.classList.add('visivel'); // vai adicionar a classe 'visivel' se o elemento estiver aparecendo na tela 
+      } else {
+        paragrafo.target.classList.remove('visivel');
+      }
+
+    });
+  }, {
+    threshold: 1 
   });
+
+  const hiddenElements = document.querySelectorAll('.escondido');
+  hiddenElements.forEach(el => elementoObservado.observe(el));
+});
+
+
+
+
+
+
+
+
